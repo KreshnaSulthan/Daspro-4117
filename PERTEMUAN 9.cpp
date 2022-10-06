@@ -34,9 +34,11 @@ int main()
                     }*/
         int i = 0;
             do {
-            cout << i << "\n";
+            if (i % 5 == 0) {
+            cout << i << endl;
+            }
             i++;
-            }while (i < 5);
+            }while (i <=100);
 
 
     return 0;
